@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Móveis SA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Móveis SA</h1>
+    <nav>
+      <ul>
+        <li><a href="#produto">Produto</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="produto">
+    <h2>Produto</h2>
+    <div class="product-images">
+      <img src="https://a-static.mlcdn.com.br/470x352/guarda-roupa-casal-florida-3-portas-de-correr-com-espelho-3-gavetas-preto-fosco-panorama-moveis/panoramamoveis/59210/eb01c36d95e46d7e76f6143df10849ef.jpeg" alt="Imagem do Produto 1">
+      <img src="https://images.tcdn.com.br/img/img_prod/1101616/kit_quarto_sob_medida_com_cama_casal_2_mesas_e_cabeceira_1629_7_b8ac9baf2943fc58c96ab597a6476716.jpg" alt="Imagem do Produto 2">
+    </div>
+    <p>Temos em nossa loja a venda uma casal de casal e um guarda-roupa de ótima qualidade</p>
+  </section>
+
+  <section id="Equipe">
+    <h2>Equipe</h2>
+    <div class="team-member">
+      <img src="https://i.superesportes.com.br/-yimHy3MXroKJvrMYrUOEKxXt2M=/1200x1200/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2022/12/01/3982158/fred-trabalhara-internamente-no-clube-em-que-e-idolo_1_136510.png" alt="Membro 1">
+      <h3>Frederico</h3>
+      <p>Vendedor top 1</p>
+    </div>
+    <div class="team-member">
+      <img src="https://img.a.transfermarkt.technology/portrait/big/68290-1697056482.png?lm=1" alt="Membro 2">
+      <h3>Neymar</h3>
+      <p>Vendedor top 2</p>
+    </div>
+    <div class="team-member">
+        <img src="https://www.ofuxico.com.br/wp-content/uploads/2022/06/vinicius-junior-faz-festa-de-4-dias.jpg" alt="Membro 3">
+        <h3>Vincíus Junior</h3>
+        <p>Vendedor top 3</p>
+      </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form action="enviar.php" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade" required>
+
+      <label for="estado">Estado:</label>
+      <input type="text" id="estado" name="estado" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Móveis SA. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
